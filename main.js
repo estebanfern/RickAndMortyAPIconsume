@@ -1,8 +1,7 @@
-var cont = 1;
 var lnk = "https://rickandmortyapi.com/api/character?page=";
 for (let k = 1; k <=42 ; k++){
     $.ajax({
-        url: lnk + cont,
+        url: lnk + k,
         contentType: "application/json",
         dataType: 'json',
         success: function(data){
