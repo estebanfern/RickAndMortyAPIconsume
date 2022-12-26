@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: azure;
+}
+
+.cabeza {
+    background-color: rgb(68, 93, 113);
+    color: azure;
+    text-align: center;
+    padding: 0.5em;
+    margin-bottom: 0.3em;
+}
+
+h1 {
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 18px;
+}
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+article {
+    padding: 10px;
+    box-shadow: 1px 2px 2px 1px black;
+    margin: 10px;
+}
